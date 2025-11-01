@@ -12,9 +12,9 @@ class ClapTrap
         unsigned int attackDamage;
 
         public:
-        explicit ClapTrap();
-        explicit ClapTrap(const std::string& n);
-        explicit ClapTrap(const ClapTrap& other);
+        ClapTrap();
+        ClapTrap(const std::string& n);
+        ClapTrap(const ClapTrap& other);
         ClapTrap& operator=(const ClapTrap& other);
 
         const std::string& getName() const;

@@ -6,9 +6,9 @@
 class ScavTrap : public ClapTrap
 {
     public:
-    explicit ScavTrap();
-    explicit ScavTrap(const std::string& n);
-    explicit ScavTrap(const ScavTrap& other);
+    ScavTrap();
+    ScavTrap(const std::string& n);
+    ScavTrap(const ScavTrap& other);
     ScavTrap& operator=(const ScavTrap& other);
 
     void attack(const std::string& target);

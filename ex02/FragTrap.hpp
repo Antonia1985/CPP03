@@ -6,9 +6,9 @@
 class FragTrap : public ClapTrap
 {
     public:
-    explicit FragTrap();
-    explicit FragTrap(const std::string& n);
-    explicit FragTrap(const FragTrap& other);
+    FragTrap();
+    FragTrap(const std::string& n);
+    FragTrap(const FragTrap& other);
     FragTrap& operator=(const FragTrap& other);
 
     void highFivesGuys(void);
